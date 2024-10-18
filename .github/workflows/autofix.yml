@@ -24,6 +24,9 @@ jobs:
       - name: 📦 Install dependencies
         run: pnpm install
 
+      - name: 📦 Install browsers
+        run: pnpm playwright install
+
       - name: 🔠 Fix lint errors
         run: pnpm lint --fix
 
@@ -32,5 +35,8 @@ jobs:
 
       - name: 🏃 Update component test snapshots
         run: pnpm test:nuxt -u
+
+      - name: 🖥️ Update browser test snapshots
+        run: pnpm test:browser --update-snapshots
 
       - uses: autofix-ci/action@ff86a557419858bb967097bfc916833f5647fa8c

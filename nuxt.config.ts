@@ -11,6 +11,11 @@ export default defineNuxtConfig({
     '@nuxt/test-utils/module',
   ],
   devtools: { enabled: true },
+  app: {
+    head: {
+      htmlAttrs: { lang: 'en' },
+    },
+  },
   future: {
     compatibilityVersion: 4,
   },
@@ -22,5 +27,9 @@ export default defineNuxtConfig({
     config: {
       stylistic: true,
     },
+  },
+  // Ensure that any HTML validation errors are treated as build errors
+  htmlValidator: {
+    failOnError: true,
   },
 })

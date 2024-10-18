@@ -1,13 +1,24 @@
 {
   "name": "nuxt-app",
+  "license": "MIT",
   "private": true,
   "type": "module",
+  "author": {
+    "name": "Daniel Roe",
+    "email": "daniel@roe.dev",
+    "url": "https://roe.dev"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare && simple-git-hooks"
+    "postinstall": "nuxt prepare && simple-git-hooks",
+    "test:types": "vue-tsc --noEmit",
+    "test:unit": "vitest",
+    "test:runtime": "vitest -c vitest.nuxt.config.ts",
+    "test:browser": "playwright test test/browser",
+    "test:browser:update": "docker run --rm --network host -v $(pwd):/work/ -w /work/ -it mcr.microsoft.com/playwright:v1.48.0-focal bash -c 'corepack enable && pnpm i && pnpm playwright test test/browser --update-snapshots'"
   },
   "dependencies": {
     "@nuxt/eslint": "^0.6.0",

@@ -47,7 +47,7 @@ jobs:
         run: pnpm test:unit
 
       - name: 🏃 Component tests
-        run: pnpm test:runtime
+        run: pnpm test:nuxt
 
   browser:
     runs-on: ubuntu-latest

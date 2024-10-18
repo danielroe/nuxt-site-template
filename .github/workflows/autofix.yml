@@ -31,6 +31,6 @@ jobs:
         run: pnpm test:unit -u
 
       - name: 🏃 Update component test snapshots
-        run: pnpm test:runtime -u
+        run: pnpm test:nuxt -u
 
       - uses: autofix-ci/action@ff86a557419858bb967097bfc916833f5647fa8c

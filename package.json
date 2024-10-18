@@ -17,7 +17,7 @@
     "postinstall": "nuxt prepare && simple-git-hooks",
     "test:types": "vue-tsc --noEmit",
     "test:unit": "vitest",
-    "test:runtime": "vitest -c vitest.nuxt.config.ts",
+    "test:nuxt": "vitest -c vitest.nuxt.config.ts",
     "test:browser": "playwright test test/browser",
     "test:browser:update": "docker run --rm --network host -v $(pwd):/work/ -w /work/ -it mcr.microsoft.com/playwright:v1.48.0-focal bash -c 'corepack enable && pnpm i && pnpm playwright test test/browser --update-snapshots'"
   },

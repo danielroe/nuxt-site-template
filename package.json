@@ -26,7 +26,7 @@
     "@nuxt/fonts": "^0.10.0",
     "@nuxt/image": "^1.8.1",
     "@nuxt/scripts": "^0.9.5",
-    "@nuxtjs/html-validator": "^1.8.2",
+    "@nuxtjs/html-validator": "^2.0.0",
     "nuxt": "^3.13.2",
     "nuxt-og-image": "^3.0.6",
     "nuxt-time": "^1.0.2",

@@ -38,7 +38,7 @@
     "@vue/test-utils": "2.4.6",
     "eslint": "9.26.0",
     "happy-dom": "17.4.7",
-    "lint-staged": "15.5.0",
+    "lint-staged": "16.0.0",
     "simple-git-hooks": "2.12.1",
     "typescript": "5.8.2",
     "vitest": "3.1.3",

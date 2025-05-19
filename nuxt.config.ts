@@ -7,7 +7,6 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/image',
     'nuxt-og-image',
-    'nuxt-time',
     '@nuxt/test-utils/module',
   ],
   devtools: { enabled: true },

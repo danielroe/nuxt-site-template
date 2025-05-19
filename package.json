@@ -29,7 +29,6 @@
     "@nuxtjs/html-validator": "^2.1.0",
     "nuxt": "^3.16.1",
     "nuxt-og-image": "^5.1.1",
-    "nuxt-time": "^1.0.3",
     "unplugin-vue-router": "^0.12.0"
   },
   "devDependencies": {

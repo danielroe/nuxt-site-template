@@ -15,7 +15,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare && simple-git-hooks",
-    "test:types": "vue-tsc --noEmit",
+    "test:types": "vue-tsc -b --noEmit",
     "test:unit": "vitest --project unit",
     "test:nuxt": "vitest --project nuxt",
     "test:browser": "playwright test test/browser",

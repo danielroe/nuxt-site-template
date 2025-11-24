@@ -37,11 +37,11 @@
     "@vue/test-utils": "2.4.6",
     "eslint": "9.39.1",
     "happy-dom": "20.0.10",
-    "lint-staged": "16.2.6",
+    "lint-staged": "16.2.7",
     "simple-git-hooks": "2.13.1",
     "typescript": "5.9.3",
     "vitest": "4.0.10",
-    "vue-tsc": "3.1.4"
+    "vue-tsc": "3.1.5"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
@@ -51,5 +51,5 @@
       "npx eslint --fix"
     ]
   },
-  "packageManager": "pnpm@10.22.0"
+  "packageManager": "pnpm@10.23.0"
 }

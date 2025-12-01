@@ -29,11 +29,11 @@
     "@nuxtjs/html-validator": "^2.1.0",
     "nuxt": "^4.0.3",
     "nuxt-og-image": "^5.1.9",
-    "unplugin-vue-router": "^0.17.0"
+    "unplugin-vue-router": "^0.18.0"
   },
   "devDependencies": {
     "@nuxt/test-utils": "3.20.1",
-    "@playwright/test": "1.56.1",
+    "@playwright/test": "1.57.0",
     "@vue/test-utils": "2.4.6",
     "eslint": "9.39.1",
     "happy-dom": "20.0.10",
@@ -51,5 +51,5 @@
       "npx eslint --fix"
     ]
   },
-  "packageManager": "pnpm@10.23.0"
+  "packageManager": "pnpm@10.24.0"
 }

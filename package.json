@@ -41,7 +41,7 @@
     "simple-git-hooks": "2.13.1",
     "typescript": "5.9.3",
     "vitest": "4.0.15",
-    "vue-tsc": "3.1.8"
+    "vue-tsc": "3.2.1"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
@@ -51,5 +51,5 @@
       "npx eslint --fix"
     ]
   },
-  "packageManager": "pnpm@10.26.0"
+  "packageManager": "pnpm@10.27.0"
 }

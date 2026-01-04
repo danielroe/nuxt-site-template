@@ -32,7 +32,7 @@
     "unplugin-vue-router": "^0.19.0"
   },
   "devDependencies": {
-    "@nuxt/test-utils": "3.21.0",
+    "@nuxt/test-utils": "3.22.0",
     "@playwright/test": "1.57.0",
     "@vue/test-utils": "2.4.6",
     "eslint": "9.39.2",

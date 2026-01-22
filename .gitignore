@@ -26,3 +26,10 @@ logs
 
 # Testing
 test-results
+
+# Test coverage
+coverage/
+
+# Playwright
+playwright-report/
+test-results/

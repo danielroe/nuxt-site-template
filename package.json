@@ -36,7 +36,7 @@
     "vue": "3.5.26"
   },
   "devDependencies": {
-    "@nuxt/test-utils": "3.23.0",
+    "@nuxt/test-utils": "4.0.0",
     "@playwright/test": "1.57.0",
     "@vitest/browser-playwright": "^4.0.17",
     "@vitest/coverage-v8": "^4.0.17",

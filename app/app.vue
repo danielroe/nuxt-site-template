@@ -1,5 +1,5 @@
 <script setup lang="ts">
-defineOgImage()
+defineOgImage('NuxtSeoTakumi')
 
 useSeoMeta({
   title: 'Nuxt Starter',

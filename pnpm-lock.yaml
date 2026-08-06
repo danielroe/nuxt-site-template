@@ -61,10 +61,10 @@ importers:
         specifier: 20.11.1
         version: 20.11.1
       nano-staged:
-        specifier: ^1.0.2
+        specifier: 1.0.2
         version: 1.0.2
       playwright-core:
-        specifier: ^1.59.1
+        specifier: 1.59.1
         version: 1.59.1
       simple-git-hooks:
         specifier: 2.13.1

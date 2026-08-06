@@ -30,7 +30,7 @@
     "@nuxt/image": "^2.0.0",
     "@nuxt/scripts": "^1.0.6",
     "@nuxtjs/html-validator": "^2.1.0",
-    "@takumi-rs/core": "^1.1.2",
+    "@takumi-rs/core": "^2.0.0",
     "nuxt": "^4.4.4",
     "nuxt-og-image": "^6.5.0",
     "unplugin-vue-router": "^0.19.2",

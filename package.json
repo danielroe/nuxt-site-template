@@ -34,10 +34,10 @@
     "nuxt": "^4.4.4",
     "nuxt-og-image": "^6.5.0",
     "unplugin-vue-router": "^0.19.2",
-    "vue": "3.5.34"
+    "vue": "3.5.41"
   },
   "devDependencies": {
-    "@nuxt/test-utils": "4.0.3",
+    "@nuxt/test-utils": "4.1.0",
     "@playwright/test": "1.59.1",
     "@vitest/browser-playwright": "^4.1.5",
     "@vitest/coverage-v8": "^4.1.5",

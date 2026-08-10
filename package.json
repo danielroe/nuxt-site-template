@@ -38,23 +38,23 @@
   },
   "devDependencies": {
     "@nuxt/test-utils": "4.1.0",
-    "@playwright/test": "1.59.1",
+    "@playwright/test": "1.62.1",
     "@vitest/browser-playwright": "4.1.5",
     "@vitest/coverage-v8": "4.1.5",
-    "@vue/test-utils": "2.4.10",
+    "@vue/test-utils": "2.4.11",
     "eslint": "10.3.0",
     "happy-dom": "20.11.1",
     "nano-staged": "1.0.2",
-    "playwright-core": "1.59.1",
+    "playwright-core": "1.62.1",
     "simple-git-hooks": "2.13.1",
     "typescript": "6.0.3",
     "vitest": "4.1.5",
-    "vue-tsc": "3.2.8"
+    "vue-tsc": "3.3.9"
   },
   "simple-git-hooks": {
     "pre-commit": "npx nano-staged"
   },
-  "packageManager": "pnpm@11.0.8",
+  "packageManager": "pnpm@11.20.0",
   "nano-staged": {
     "*.{js,ts,mjs,cjs,json,.*rc}": [
       "npx eslint --fix"

@@ -49,7 +49,7 @@
     "simple-git-hooks": "2.13.1",
     "typescript": "6.0.3",
     "vitest": "4.1.10",
-    "vue-tsc": "3.3.10"
+    "vue-tsc": "3.3.11"
   },
   "simple-git-hooks": {
     "pre-commit": "npx nano-staged"

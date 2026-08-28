@@ -34,7 +34,7 @@
     "nuxt": "^4.4.4",
     "nuxt-og-image": "^6.5.0",
     "unplugin-vue-router": "^0.19.2",
-    "vue": "3.5.41"
+    "vue": "3.5.42"
   },
   "devDependencies": {
     "@nuxt/test-utils": "4.1.0",

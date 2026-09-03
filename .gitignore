@@ -25,11 +25,6 @@ logs
 !.env.example
 
 # Testing
-test-results
-
-# Test coverage
-coverage/
-
-# Playwright
-playwright-report/
 test-results/
+coverage/
+playwright-report/

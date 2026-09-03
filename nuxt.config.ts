@@ -16,12 +16,12 @@ export default defineNuxtConfig({
     },
   },
   future: {
-    compatibilityVersion: 4,
+    compatibilityVersion: 5,
   },
   experimental: {
     typedPages: true,
   },
-  compatibilityDate: '2024-04-03',
+  compatibilityDate: '2025-09-03',
   eslint: {
     config: {
       stylistic: true,

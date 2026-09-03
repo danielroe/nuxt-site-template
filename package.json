@@ -22,7 +22,7 @@
     "test:nuxt": "vitest --project nuxt",
     "test:browser": "playwright test",
     "test:browser:ui": "playwright test --ui",
-    "test:browser:update": "docker run --rm --network host -v $(pwd):/work/ -v /tmp/playwright-node-modules:/work/node_modules -w /work/ -it mcr.microsoft.com/playwright:v1.59.1-noble bash -c 'corepack enable && pnpm i && pnpm playwright test --update-snapshots'"
+    "test:browser:update": "docker run --rm --network host -v $(pwd):/work/ -v /tmp/playwright-node-modules:/work/node_modules -w /work/ -it mcr.microsoft.com/playwright:v1.62.1-noble bash -c 'corepack enable && pnpm i && pnpm playwright test --update-snapshots'"
   },
   "dependencies": {
     "@nuxt/eslint": "^1.15.2",
@@ -33,7 +33,6 @@
     "@takumi-rs/core": "^2.0.0",
     "nuxt": "^4.4.4",
     "nuxt-og-image": "^6.5.0",
-    "unplugin-vue-router": "^0.19.2",
     "vue": "3.5.42"
   },
   "devDependencies": {
